@@ -7,6 +7,7 @@ export const Button = styled("button", {
   color: "$whiteColor",
   backgroundColor: "none",
   alignItems: "center",
+  cursor: "pointer",
 
   "& svg": {
     width: "25px",

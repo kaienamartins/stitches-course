@@ -1,4 +1,8 @@
 import Head from "next/head";
+import Navbar from "./components/navbar";
+import MainBanner from "./components/main-banner";
+import TeamsBox from "./components/teams";
+import HeroImageBox from "./components/hero-image";
 
 export default function Home() {
   return (
@@ -10,7 +14,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        
+        <Navbar />
+        <MainBanner />
+        <TeamsBox />
+        <HeroImageBox/>
       </main>
     </>
   );
