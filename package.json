@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@stitches/react": "^1.2.8",
-    "next": "14.2.3",
+    "next": "14.2.25",
     "react": "^18",
     "react-dom": "^18"
   },
